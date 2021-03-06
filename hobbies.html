@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Lucy</title>
+        <script>
+            function wow()
+            {
+                var sport = document.querySelector('#sport').value;
+                document.write(sport, "<p>sounds like lots of fun </p>")
+            }
+
+        </script>
+    </head>
+    <nav class="nav">
+      <a class="nav-link active" aria-current="page" href="/index.html">Me</a>
+      <a class="nav-link" href="/hobbies.html">Hobbies</a>
+      <a class="nav-link" href="/family.html">Family</a>
+      <a class="nav-link" href="/victims.html">Victim</a>
+      <a class="nav-link" href="/recipes.html">Recipes</a>
+    </nav>
+    <body>
+        <h1> My Hobbies</h1>
+        <h2> My Favoruite sport is Soccer </h2>
+        <img src="https://media.giphy.com/media/cKtUMiET8ZeU4EAxhM/giphy.gif" class="rounded mx-auto d-block" alt="Dog jumping and catching the ball">
+        <p>My owners reckon I'm pretty good.</p>
+        <form onsubmit="wow(); return false">
+          <label>What's your hobby?</label><br>
+          <input type="text" id="sport"><br>
+          <input type="submit" value="Submit">
+        </form>
+
+    </body>
+</html>
